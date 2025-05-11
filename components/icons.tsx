@@ -27,6 +27,8 @@ import {
   Package,
   DollarSign,
   Tag,
+  MessageSquare,
+  Send,
 } from "lucide-react"
 
 export const Icons = {
@@ -58,5 +60,7 @@ export const Icons = {
   tag: Tag,
   shoppingBag: ShoppingBag,
   image: ImageIcon,
-  alertTriangle: AlertTriangle, // Make sure this is exported
+  alertTriangle: AlertTriangle,
+  messageSquare: MessageSquare,
+  send: Send,
 }

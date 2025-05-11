@@ -41,29 +41,34 @@ export function Sidebar({ devUser }: { devUser?: any }) {
     {
       href: "/dashboard",
       title: "Dashboard",
-      icon: "dashboard",
+      icon: "dashboard" as keyof typeof Icons,
     },
     {
       href: "/shops",
       title: "Shops",
-      icon: "shop",
+      icon: "shop" as keyof typeof Icons,
     },
     {
       href: "/employees",
       title: "Employees",
-      icon: "employee",
+      icon: "employee" as keyof typeof Icons,
       roles: ["admin", "owner"],
     },
     {
       href: "/items",
       title: "Inventory",
-      icon: "item",
+      icon: "item" as keyof typeof Icons,
     },
     {
       href: "/users",
       title: "Users",
-      icon: "user",
+      icon: "user" as keyof typeof Icons,
       roles: ["admin"],
+    },
+    {
+      href: "/chat",
+      title: "AI Assistant",
+      icon: "messageSquare" as keyof typeof Icons,
     },
   ]
 
